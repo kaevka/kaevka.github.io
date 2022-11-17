@@ -24,7 +24,7 @@ body{
 .подвал a{
   text-decoration: none;
   color:black;
-  font-family: 'Marck Script', cursive;
+  font-family: 'Marck Script';
   font-size: 30px;
   text-justify: 10px;
   margin: 20px;
@@ -48,7 +48,7 @@ body{
   margin-right: auto;
   width: 10em;
   color: rgb(226, 219, 219);
-  font-family: 'Marck Script', cursive;
+  font-family: 'Marck Script';
   text-shadow: 1px 1px 1px #000;
 }
 #чтоэто{
@@ -68,7 +68,7 @@ img {
   height: auto;
 }
 p{
-   font-family: 'Marck Script', cursive;
+   font-family: 'Marck Script';
    font-weight: 700;
    color:rgb(226, 219, 219);
    text-shadow: 1px 1px 1px #000;
@@ -269,7 +269,7 @@ ul {
   box-shadow: none;
   background: #ffa650;
   width: 200px;
-  font-family: 'Marck Script', cursive;
+  font-family: 'Marck Script';
   font-size: 1.3rem;
   padding: 14px 20px;
 }
