@@ -23,7 +23,7 @@ body{
 .подвал a{
   text-decoration: none;
   color:black;
-  font-family: 'Marck Script', cursive;
+  font-family: 'Marck Script';
   font-size: 30px;
   text-justify: 10px;
   margin: 20px;
@@ -41,7 +41,7 @@ body{
     padding: 10px 20px; 
  }
  p{
-  font-family: 'Marck Script', cursive;
+  font-family: 'Marck Script';
   font-weight: 700;
   color:rgb(226, 219, 219);
   text-shadow: 1px 1px 1px #000;
@@ -70,7 +70,7 @@ h2{
     font-size: 2.3vh;
 }
 pre{
-    font-family: 'Marck Script', cursive;
+    font-family: 'Marck Script';
     font-weight: 1000;
     color:rgb(226, 219, 219);
     text-shadow: 1px 1px 1px #000;
