@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!--Вкладка с названием и фавиконкой-->
+    <title>Магазин игрушек</title>
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="stylesheet" type="text/css" href="блог.css">
+    <script src="https://kit.fontawesome.com/f0b1877548.js" crossorigin="anonymous"></script>
+    <script src="корзина_джава.js"></script> .
+  </head>
+  <body>
+    <!--шапка-->
+    <header>
+      <h1 id="lipko" class="main-text-h">FNUFLY</h1>
+      <div class="hamberger-menu">
+        <!--кнопка меню будет выполнена как чекбокс-->
+        <input id="menu__toggle" type="checkbox" >
+        <label class="menu__btn" for="menu__toggle">
+          <span></span> <!--место для кнопки меню в мобильном устройстве-->
+        </label>
+        <ul class="menu__box">
+          <li><a class="menu__item" href="курсовая_скоро.html">О мастере</a></li>
+          <li><a class="menu__item" href="отзывы.html">Отзывы и доставка</a></li>
+          <li><a class="menu__item" href="курсовая_1.html">Вернуться в магазин</a></li>
+        </ul>
+        </div></header>
+
+
+
+<div class="header">
+    <h2 id="начало">Блог FNUFLY</h2>
+  </div>
+  
+  <div class="row">
+    <div class="leftcolumn">
+        <div class="card">
+            <h2>Заяц</h2>
+            <h5>Новый год совсем скоро, 20.10.22</h5>
+            <img src="заяс.jpg" alt="" class="product__img">
+            <p>Вот и начало холодать все больше с каждым днем, поэтому я вспомнила о том, что всего через два месяца наступит новый год.
+                Так и родилась в моей голове сделать миниатюрного зайку. Сшился он достаточно быстро, без особых усилий, поэтому и цена на повторы
+                такого зайки достаточно выгодная для вас! Начинаю принимать заказы на похожих малышей. Цвет зайки можете выбрать самостоятельно, 
+                предварительно посовещавшись со мной о возможности такого цвета
+            </p>
+            <button id="like" onclick="liked()">
+                <i class="fa fa-heart" aria-hidden="true"></i>
+                </button>
+          </div>
+      <div class="card">
+        <h2>Мышки!</h2>
+        <h5>Продолжается работа над мышками!, 01.09.22</h5>
+        <img src="мышто.png" alt="" class="product__img">
+        <p>Да, вот так шустро рождаются две мышки п мастер классу Надежды Титовой. В данный момент началась работа над одеждой, так что
+            ждите скорых обновлений. Малыши выходят как всегда маленькими, всего 10см роста в каждом, но милоты в них, согласитесь, больше, чем размеров
+        </p>
+        <button id="like1" onclick="liked1()">
+            <i class="fa fa-heart" aria-hidden="true"></i>
+            </button>
+      </div>
+      <div class="card">
+        <h2>Лев</h2>
+        <h5>Лев наконец-то завершен, 20.08.22</h5>
+        <img src="левто.png" alt="" class="product__img">
+        <p>Так быстро я еще не шила, всего пять дней активной работы практически без сна и перерывов, и вот, срочный заказ завершен.
+            Это мой самый первый лев, но зато какой! Настолько мне понравилась работа над ним, что вскором ждите свободную кошку!
+        </p>
+        <button id="like2" onclick="liked2()">
+            <i class="fa fa-heart" aria-hidden="true"></i>
+            </button>
+      </div>
+
+      <div class="card">
+        <h2>Амигуруми</h2>
+        <h5>Почему бы и нет?, 13.06.22</h5>
+        <img src="южный.jpg" alt="" class="product__img">
+        <p>Пришла мне идея в голову что-то сделать близкому человеку, и вот, вспомнилось, что сейчас он смотрит "Южный парк". 
+            Почему персонажи такие маленькие? Потому что нашла я у себя нужные мне оттенки пряжи только в формате ириса и ниток мулине...
+            Спасибо мне из прошлого за то, что купила множество крючков разного размера, ведь здесь без размера 0.25 я бы не справилась
+        </p>
+        <button id="like3" onclick="liked3()">
+            <i class="fa fa-heart" aria-hidden="true"></i>
+            </button>
+      </div>
+      <div class="card">
+        <h2>Лис?</h2>
+        <h5>Подарок подруге, 27.04.22</h5>
+        <img src="листо.jpg" alt="" class="product__img">
+        <p>Списались мы недавно с подругой, которая уехала покорять Италию несколько лет назад. Она Скинула мне идею для тедди и попросила сшить ей
+            похожую лисичку. Как вы видите, лисичку я сделала) Совсем скоро она вслед за моей подругой переедет в Милан! Жалко, что я не перееду
+        </p>
+        <button id="like4" onclick="liked4()">
+            <i class="fa fa-heart" aria-hidden="true"></i>
+            </button>
+      </div>
+    </div>
+    <div class="rightcolumn">
+      <div class="card">
+        <h2><a href="курсовая_скоро.html">About Me</a></h2>
+        <img src="этоя.jpg" alt="" class="product__img">
+        <p>Меня зовут Ева, мне 19 лет, живу в Москве и учусь на программной инженерии. В рукоделии я нахожу спокойствие и могу отвлечься от окружаеющего мира.
+             История моего пути к тедди достаточно длинная, но вы можете прочесть ее нажав <a href="курсовая_скоро.html">сюда</a></p>
+      </div>
+
+      <div class="card">
+        <h3>Follow Me</h3>
+        <p color="black"><a href="https://vk.com/fnufly">Наше сообщество</a></p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="footer">
+    <footer>
+        <h1 id="lipko" class="main-text-h">FNUFLY</h1>
+        <nav>
+        <a href="курсовая_скоро.html">О мастере</a>
+        <a href="курсовая_1.html">Каталог</a>
+        <a href="отзывы.html">Отзывы и доставка</a>
+        <a href="#начало">Вернуться в начало</a>
+        </nav>
+        <div class="social">
+            <a href="https://vk.com/fnufly"><img src="vk.png" alt=""></a>
+            <a href="https://instagram.com/fnufly?igshid=YmMyMTA2M2Y="><img src="inst.png" alt=""></a>
+        </div>
+        </footer>
+  </div>
+  </body>
+  </html>

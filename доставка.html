@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Доставка</title>
+    <link rel="icon" href="favicon.ico" sizes="any">
+	<link rel="stylesheet" href="доставка.css">
+</head>
+<body>
+	
+	<div class="form">
+		<h1>Заполните все поля для доставки</h1>
+		<div class="input-form">
+			<input type="text" placeholder="Ваше имя" required>
+		</div>
+		<div class="input-form">
+			<input type="text" placeholder="Ваша фамилия" required>
+		</div>
+		<div class="input-form">
+			<input type="text" placeholder="Ваш полный адрес" required>
+		</div>
+        <div class="input-form">
+			<input type="email" placeholder="Email" required>
+		</div>
+        <div class="input-form">
+			<input type="text" placeholder="Телефон" required>
+		</div>
+        <label for="meet">Выберите желаемую дату получения изделия: </label>
+      <input type="datetime-local" id="meet"
+             name="meet" value="2022-11-24T20:30"
+             min="2022-11-15T00:00" max="2023-11-15T00:00">
+        <div class="input-form">
+			<input type="text" placeholder="Количество изделий" required>
+		</div>
+
+        <form>
+            <label for="toy-select">Выберете желаемое изделие: </label>
+            <select name="toy" id="toy-select" required >
+                <option value="">--Кого выберете?--</option>
+                <option value="bear">Мишка</option>
+                <option value="hegehog">Ёжик</option>
+                <option value="fox">Лиса</option>
+                <option value="rabbit">Зайка</option>
+                <option value="mous">Мышка</option>
+                <option value="tigre">Тигр</option>
+                <option value="lion">Лев</option>
+                <option value="fox2">Фенёк</option>
+            </select>
+        </form>
+        <div class="input-form">
+			<a href="доставка.html"><input type="submit" value="Отправить"></a>
+		</div>
+	</div>
+
+</body>
+</html>
