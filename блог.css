@@ -72,10 +72,10 @@ body{
 
 
  p{
-    font-family: 'Marck Script', cursive;
+    font-family: 'Marck Script';
  }
  pre{
-   font-family: 'Marck Script', cursive;
+   font-family: 'Marck Script';
    font-weight: 1000;
    color:rgb(226, 219, 219);
    text-shadow: 1px 1px 1px #000;
@@ -191,7 +191,7 @@ body{
     footer a{
     text-decoration: none;
     color:black;
-    font-family: 'Marck Script', cursive;
+    font-family: 'Marck Script';
     font-size: 30px;
     text-justify: 10px;
     margin: 20px;
