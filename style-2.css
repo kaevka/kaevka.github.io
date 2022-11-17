@@ -193,6 +193,10 @@ header{
  /*размер не имеет значения*/
    @media (max-width: 1000px)
    {
+       body{
+         padding: 0px 0px 0px; 
+       }
+       p{font-size: 25px;}
        .d2{width: 10vw; flex-grow: 2;}
        .d4{width: 25vw;}
        .aa{width:70vw;}
