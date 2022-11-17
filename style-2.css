@@ -42,7 +42,7 @@ footer {
   footer a{
   text-decoration: none;
   color:black;
-  font-family: 'Marck Script', cursive;
+  font-family: 'Marck Script';
   font-size: 30px;
   text-justify: 10px;
   margin: 20px;
@@ -62,7 +62,7 @@ footer {
   }
 
 p{
-  font-family: 'Marck Script', cursive;
+  font-family: 'Marck Script';
 }
 h1{
   font-family: Pompadur, 'Comic Sans MS', cursive;
